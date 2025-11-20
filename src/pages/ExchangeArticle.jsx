@@ -22,11 +22,11 @@ export default function ExchangeArticle() {
           </span>
         </div>
       </section>
-      <section className="w-full flex flex-col items-center ">
-        <div className="w-full max-w-[800px] text-center space-y-6 px-4">
+      <section className="w-full flex flex-col justify-center items-center ">
+        <div className="w-full max-w-[800px] text-center space-y-6 py-8 px-4 ">
           <div className="">
             <Readmore>
-              <p className="font-serif">
+              <p>
                 Tallene peker på at det var bare 17% uteksaminerte i 2024. Det
                 reiste akkurat 7793 norske studenter på utveksling i 2024, som
                 er en nedgang fra 2023 der 8085 reiste. Det er en nedgang, men
