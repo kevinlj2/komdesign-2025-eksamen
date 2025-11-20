@@ -5,7 +5,7 @@ export const articles = [
     img: "./assets/images/transferstudent.jpg",
   },
   {
-    id: "stridsvogner-møt-johannes",
+    id: "stridsvogner-mot-johannes",
     title: "Stridsvogner: Møt Johannes",
     img: "./assets/images/johannes.jpg",
   },
@@ -15,8 +15,9 @@ export const articles = [
     img: "./assets/images/futureclock.jpeg",
   },
   {
-    id: "Kort-artikkel-3",
-    title: "Kort artikkel 3",
-    img: "../assets/images/short-article-3.jpg",
+    id: "skjerm-for-leggetid-skaper-sovnkrise-vi-ser-en-stille-helseutfordring-vokse-sier-forskere",
+    title:
+      "Skjerm før leggetid skaper søvnkrise: – Vi ser en stille helse­utfordring vokse, sier forskere ",
+    img: "./assets/images/skjermtid.jpg",
   },
 ];
