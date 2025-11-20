@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import ExchangeArticle from "./pages/ExchangeArticle";
 import TankArticle from "./pages/TankArticle";
 import FutureweekArticle from "./pages/FutureweekArticle";
+import ScreenArticle from "./pages/ScreenArticle";
 
 function App() {
   return (
@@ -14,12 +15,16 @@ function App() {
           path="jorda-rundt-studenter-på-utveksling"
           element={<ExchangeArticle />}
         />
-        <Route path="stridsvogner-møt-johannes" element={<TankArticle />} />
+        <Route path="stridsvogner-mot-johannes" element={<TankArticle />} />
         <Route
           path="framtidsuka-i-halden-vekker-nysgjerrighet-og-kreativitet"
           element={<FutureweekArticle />}
         />
       </Route>
+      <Route
+        path="skjerm-for-leggetid-skaper-sovnkrise-vi-ser-en-stille-helseutfordring-vokse-sier-forskere"
+        element={<ScreenArticle />}
+      />
     </Routes>
   );
 }
