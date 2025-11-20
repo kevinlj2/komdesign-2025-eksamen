@@ -5,10 +5,10 @@ export default function Layout({}) {
   return (
     <>
       <Nav />
-      <main className="w-full max-w-6xl mx-auto">
+      <main className="w-full">
         <Outlet />
       </main>
-      <footer>
+      <footer className="w-full bg-cyan-700 text-white text-center py-6 mt-10">
         <p>© 2025 Gruppe X - Komdesign Eksamen</p>
       </footer>
     </>
