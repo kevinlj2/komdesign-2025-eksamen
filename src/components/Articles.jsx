@@ -6,7 +6,7 @@ export default function Articles() {
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 place-items-center">
       {articles.map((article) => (
         <div key={article.id} className="flex flex-col items-center">
-          <h2 className="text-xl font-semibold text-blue-300 mb-4 text-center">
+          <h2 className="text-xl font-semibold text-black mb-4 text-center">
             {article.title}
           </h2>
           <Link
