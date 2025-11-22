@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Nav() {
   return (
     <header className="w-full">
-      <div className="text-center py-6">
+      <div className="text-center py-4">
         <h1 className="text-4xl font-serif font-bold text-black text-center">
           GRUPPE X
         </h1>
