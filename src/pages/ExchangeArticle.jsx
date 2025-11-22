@@ -5,8 +5,9 @@ import Hero from "../components/Hero";
 
 export default function ExchangeArticle() {
   return (
-    <><div>
-    <Hero />
+    <>
+    <div>
+     <Hero />
     </div>
       <div className="w-full max-w-[800px] mx-100 py-8 px-4"> 
       <section>
@@ -56,7 +57,7 @@ export default function ExchangeArticle() {
           </article>
           <div className="flex flex-col items-end">
             <img
-              src="./assets/images/evertsen.png"
+              src="./assets/images/student/evertsen.png"
               alt="Anneli Lirhus Evertsen"
               className="rounded-lg mb-2 autoShow imageReveal"
             />
@@ -64,7 +65,7 @@ export default function ExchangeArticle() {
               Anneli Lirhus Evertsen (Foto: Privat)
             </p>
             <img 
-              src="./assets/images/seoul-daejeon.png"
+              src="./assets/images/student/seoul-daejeon.png"
               alt="Kart over daejoeh"
               className="rounded-lg mb-2 autoShow imageReveal w-108"
               />
@@ -115,7 +116,7 @@ export default function ExchangeArticle() {
         <section className="pt-20">
           <div className="flex-col float-right">
           <img
-          src="./assets/images/nguyen.png"
+          src="./assets/images/student/nguyen.png"
           alt="Jennifer Nguyen"
           className="rounded-xl mb-2 autoShow imageReveal p-4">
           </img>
@@ -221,7 +222,7 @@ export default function ExchangeArticle() {
           </article>
           <div className="flex flex-col items-end">
             <img
-              src="./assets/images/norvang.png"
+              src="./assets/images/student/norvang.png"
               alt="Rebecca Dawn Smith Norvang"
               className="rounded-lg autoShow imageReveal"
             />
