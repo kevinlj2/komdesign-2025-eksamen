@@ -28,20 +28,20 @@ export default function TankArticle() {
       </p>
       <div className="w-full max-w-[800px] text-center space-y-6 px-4">
         <p>
-          «Stridsvogner er noe av det mest krevende mennesket kan produsere»
-          mener Johannes. «De balanserer teknologi på et nivå som hele tiden
+          <span className="italic"><span className="float-left text-[70px] leading-[66px] mr-[6px] mb-[5px]">«S</span>tridsvogner er noe av det mest krevende mennesket kan produsere» </span>
+          mener Johannes. <span className="italic">«De balanserer teknologi på et nivå som hele tiden
           presser grenser. Uansett hvor mye man prøver, tror jeg det er umulig å
           lage en perfekt stridsvogn fordi det vil alltid være kompromisser. Det
-          er nettopp den kompleksiteten som fascinerer meg» forteller han
+          er nettopp den kompleksiteten som fascinerer meg»</span> forteller han
           videre.
         </p>
         <p>
           Johannes sin kunnskap om stridsvogner er bred og utvidende. Han har
           vært på flere museer for å se på stridsvogner, og kan hvert minste
-          detalj om absolutt alle. «M4 Sherman er den viktigste i
+          detalj om absolutt alle.  <span className="italic">«M4 Sherman er den viktigste i
           krigshistorien, fordi den ble produsert i enorme mengder og brukt over
           hele verden på alle fronter og i nesten all roller. Det var en
-          avgjørende brikke i den andre verdenskrigen».
+          avgjørende brikke i den andre verdenskrigen».</span>
         </p>
       </div>
       <div className="w-full flex justify-center my-6">
