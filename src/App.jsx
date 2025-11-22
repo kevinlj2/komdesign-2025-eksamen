@@ -20,11 +20,10 @@ function App() {
           path="framtidsuka-i-halden-vekker-nysgjerrighet-og-kreativitet"
           element={<FutureweekArticle />}
         />
-      </Route>
-      <Route
+        <Route
         path="skjerm-for-leggetid-skaper-sovnkrise-vi-ser-en-stille-helseutfordring-vokse-sier-forskere"
-        element={<ScreenArticle />}
-      />
+        element={<ScreenArticle />} />
+      </Route>
     </Routes>
   );
 }
