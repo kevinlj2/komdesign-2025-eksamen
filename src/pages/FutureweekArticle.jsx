@@ -1,3 +1,5 @@
+import RotatingImages from "../components/RotatingImages";
+
 export default function FutureweekArticle() {
   return (
     <section className="w-full flex flex-col items-center">
@@ -5,8 +7,6 @@ export default function FutureweekArticle() {
         <h1 className="font-bold py-4">
           Framtidsuka i Halden vekker nysgjerrighet og kreativitet{" "}
         </h1>
-        <p className="text-left italic py-2">Av Ala Walid Daoud</p>
-        <br />
         <p>
           Framtidsuka i Halden samlet denne uken både barn, unge og voksne til
           en uke full av aktiviteter, læring og opplevelser. Arrangementet, som
@@ -39,13 +39,12 @@ export default function FutureweekArticle() {
             </p>
           </div>
         </div>
-        <br />
-        <div className="w-full max-w-[800px] mx-auto px-4 my-16 leading-relaxed">
+        <div className="flex flex-col items-end">
           <div className="mb-6">
             <img
-              src="./assets/images/isbjornberit.jpeg"
+              src="./assets/images/future/isbjornberit.jpeg"
               alt="Utstoppet isbjørn Berit"
-              className="w-1/2 float-right ml-6 mb-4 rounded-lg"
+              className="rounded-lg mb-2 autoShow imageReveal w-1/2 float-right"
             />
             <p className="text-sm text-center opacity-80 mb-10"></p>
           </div>
@@ -75,6 +74,7 @@ export default function FutureweekArticle() {
           tydelig hvordan lokale initiativer kan stimulere nysgjerrighet, læring
           og kreativitet, samtidig som det fremmer bærekraftige verdier.{" "}
         </p>
+        
       </div>
     </section>
   );
