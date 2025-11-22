@@ -18,6 +18,10 @@ export const articles = [
     id: "skjerm-for-leggetid-skaper-sovnkrise-vi-ser-en-stille-helseutfordring-vokse-sier-forskere",
     title:
       "Skjerm før leggetid skaper søvnkrise: – Vi ser en stille helse­utfordring vokse, sier forskere ",
-    img: "./assets/images/skjermtid.jpg",
+    img: "./assets/images/screen/skjermtid.jpg",
   },
 ];
+
+
+
+      
