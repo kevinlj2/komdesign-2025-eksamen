@@ -1,12 +1,9 @@
 export default function TankArticle() {
   return (
     <section className="w-full flex flex-col items-center">
-      <h1 className="text-4xl font-bold text-center mb-10 py-4">
+      <h1 className="text-4xl font-bold text-center  py-4">
         Stridsvogner
       </h1>
-      <p className="text-left italic py-2">
-        Av Isabella Kristin Manum Lithander
-      </p>
       <div className="w-full max-w-[800px] text-center space-y-6 px-4">
         <p>
           Johannes Sæther, 22, har en lidenskap som mange andre ikke har, nemlig
@@ -18,7 +15,7 @@ export default function TankArticle() {
       </div>
       <div className="w-full flex justify-center my-6">
         <img
-          src="./assets/images/johannes.jpg"
+          src="../assets/images/tanks/johannes.jpg"
           alt="Bilde av Johannes Sæther"
           className="w-full max-w-[900px] rounded-lg"
         />
@@ -46,7 +43,7 @@ export default function TankArticle() {
       </div>
       <div className="w-full flex justify-center my-6">
         <img
-          src="./assets/images/tanksmanufacturer.jpg"
+          src="../assets/images/tanks/tanksmanufacturer.jpg"
           alt="M4 Sherman stridsvogner"
           className="w-full max-w-[900px] rounded-lg"
         />
@@ -66,7 +63,7 @@ export default function TankArticle() {
       </div>
       <div className="w-full flex flex-col items-center my-10 space-y-4">
         <img
-          src="./assets/images/cv90.jpg"
+          src="../assets/images/tanks/cv90.jpg"
           alt="CV90 stridsvogn"
           className="w-full max-w-[900px] rounded-lg"
         />
@@ -74,7 +71,7 @@ export default function TankArticle() {
       </div>
       <div className="w-full flex flex-col items-center my-10 space-y-4">
         <img
-          src="./assets/images/m113.jpg"
+          src="../assets/images/tanks/m113.jpg"
           alt="M113 stridsvogn"
           className="w-full max-w-[900px] rounded-lg"
         />
@@ -95,7 +92,7 @@ export default function TankArticle() {
       </div>
       <div className="w-full max-w-[800px] mx-auto px-4 my-16 leading-relaxed">
         <img
-          src="./assets/images/elefanttanks.jpg"
+          src="../assets/images/tanks/elefanttanks.jpg"
           alt="Elefant stridsvogn"
           className="w-1/2 float-right ml-6 mb-4 rounded-lg"
         />
@@ -116,7 +113,7 @@ export default function TankArticle() {
       </div>
       <div className="w-full flex flex-col items-center my-10 space-y-4">
         <img
-          src="./assets/images/zelensky.jpg"
+          src="../assets/images/tanks/zelensky.jpg"
           alt="Zelensky med ukrainske soldater"
           className="w-full max-w-[900px] rounded-lg"
         />
